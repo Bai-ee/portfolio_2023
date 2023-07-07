@@ -392,7 +392,7 @@ table {
 }
 
 /* Includes */
-@font-face {
+/* @font-face {
   font-family: 'hk-carta';
   font-style: normal;
   font-weight: 400;
@@ -404,6 +404,53 @@ table {
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/hk-nova/HKNova-Medium.woff2) format("woff2"), url(../fonts/hk-nova/HKNova-Medium.woff) format("woff"), url(../fonts/hk-nova/HKNova-Medium.eot) format("eot");
+}
+
+@font-face {
+  font-family: 'hk-grotesk';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/hk-grotesk/HKGrotesk-Light.woff2) format("woff2"), url(../fonts/hk-grotesk/HKGrotesk-Light.woff) format("woff"), url(../fonts/hk-grotesk/HKGrotesk-Light.eot) format("eot");
+}
+
+@font-face {
+  font-family: 'hk-grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/hk-grotesk/HKGrotesk-Regular.woff2) format("woff2"), url(../fonts/hk-grotesk/HKGrotesk-Regular.woff) format("woff"), url(../fonts/hk-grotesk/HKGrotesk-Regular.eot) format("eot");
+}
+
+@font-face {
+  font-family: 'hk-grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/hk-grotesk/HKGrotesk-SemiBold.woff2) format("woff2"), url(../fonts/hk-grotesk/HKGrotesk-SemiBold.woff) format("woff"), url(../fonts/hk-grotesk/HKGrotesk-SemiBold.eot) format("eot");
+}
+
+@font-face {
+  font-family: 'hk-grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/hk-grotesk/HKGrotesk-Bold.woff2) format("woff2"), url(../fonts/hk-grotesk/HKGrotesk-Bold.woff) format("woff"), url(../fonts/hk-grotesk/HKGrotesk-Bold.eot) format("eot");
+} */
+
+@font-face {
+  font-family: 'hk-carta';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Burra-Regular.otf) format("otf"),
+  url(../fonts/Burra-Regular.otf) format("woff2"),
+  url(../fonts/Burra-Regular.otf) format("woff");
+
+}
+@font-face {
+  font-family: 'hk-nova';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Burra-Regular.otf) format("otf"),
+  url(../fonts/Burra-Regular.otf) format("woff2"),
+  url(../fonts/Burra-Regular.otf) format("woff");
+
 }
 
 @font-face {
